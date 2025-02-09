@@ -1,6 +1,15 @@
-# Building a RAG System with DeepSeek-R1 & Ollama for Local Deployment
+# Building various LLM applications to understand various concepts and tools.
+ - [Building a RAG System with DeepSeek-R1 & Ollama for Local Deployment](#building-a-rag-system-with-deepseek-r1--ollama-for-local-deployment)
+   - [Basic Overview](#Basic Overview)
+   - [Langchain](#langchain)
+   - [Vector Stores i.e. FAISS](#vector-stores-ie-faiss)
+   - [Ollama](#ollama)
+   - [Install Dependencies](#install-dependencies)
+ - [Building a Q&A system for SQL/CSV data]()
 
-## Basic Overview
+## Building a RAG System with DeepSeek-R1 & Ollama for Local Deployment
+
+### Basic Overview
 RAG (i.e. Retrieval-Augmented Generation) integrates a retrieval mechanism with a generative model (local llm in this case) to fetch relevant data from a external (external to llm) knowledge source i.e. enterprise knowledge base. 
 Making AI generated content more accurate and contextually relevant.
 
