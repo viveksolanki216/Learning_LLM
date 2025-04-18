@@ -1,0 +1,7 @@
+.idea/
+bin/
+QnA_Over_Text_Documents/ollama
+QnA_Over_Text_Documents/logs
+QnA_Over_Text_Documents/.idea
+QnA_Over_Text_Documents/__pycache__
+
