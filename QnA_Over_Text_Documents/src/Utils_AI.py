@@ -16,7 +16,8 @@ client = Client(
   #host='http://192.168.200.18:11434'#,
   #host='http://127.0.0.1:11434'
   #host='http://192.168.201.123:11434'
-  host='host.docker.internal:11434'
+  host='http://10.0.0.138:11434'
+  #host='host.docker.internal:11434'
   #headers={'x-some-header': 'some-value'}
 )
 
@@ -28,6 +29,7 @@ PROMPT_TEMPLATE = """
     a capital venture industry like a termsheet, financials, legal documents, etc. 
     You are an expert Question and Answer assistant. Please provide the relevant answer in brief 
     to the user query based on the input context. If there is no relevant answer to the user query, please say "I don't know".
+    Don't get stuck in calculations, give answers in real-time. 
  
     --- USER QUERY ---
     {user_query}
